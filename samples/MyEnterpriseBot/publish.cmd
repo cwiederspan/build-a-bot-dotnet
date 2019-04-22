@@ -1,0 +1,1 @@
+az bot publish --resource-group cdw-bots-20190420 -n cdw-enterprisebot-20190420 --subscription b9c770d1-cde9-4da3-ae40-95ce1a4fac0c -v v4 --proj-name "MyEnterpriseBot.csproj" 

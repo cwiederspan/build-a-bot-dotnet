@@ -1,0 +1,121 @@
+{
+    "name": "cdw-enterprisebot-20190420",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "49",
+            "name": "cdw-enterprisebot-20190420",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "b9c770d1-cde9-4da3-ae40-95ce1a4fac0c",
+            "resourceGroup": "cdw-bots-20190420",
+            "serviceName": "cdw-enterprisebot-20190420",
+            "appId": "0b57482c-4c23-444e-95ac-a38e8631613d"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "0b57482c-4c23-444e-95ac-a38e8631613d",
+            "appPassword": "icKuKLzsqf/PN8tVyduLbA==!8u+jv8oyoO1AEvoDaBOCQBkXhmITj8W7A/N58Q2uDRYfvc9N1PZvt6WHeOYnXfy+",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "30",
+            "name": "production",
+            "appId": "0b57482c-4c23-444e-95ac-a38e8631613d",
+            "appPassword": "5YjgHQKDGvaU4q8S+RfcaQ==!obW3hi5L+jo0+quja1NZAhqG4RAXS9JszNnb/f3raYvBJYuTN0o5hiQDGwgimUDZ",
+            "endpoint": "https://cdw-enterprisebot-20190420.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "b9c770d1-cde9-4da3-ae40-95ce1a4fac0c",
+            "resourceGroup": "cdw-bots-20190420",
+            "name": "cdw-enterprisebot-20190420",
+            "serviceName": "cdw-enterprisebot-20190420",
+            "instrumentationKey": "eXwMcH6Z1zlrjzSQUUzlBg==!o4g05kwRBQpr3Rwb8l3sRYkVJ1eib+k7REkc/iqZU4ebc57IUW+tp2LgRyY09JqR",
+            "applicationId": "71690e17-9339-4495-a04d-75fa030123de",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "cdwenterprisebot201904",
+            "serviceName": "cdwenterprisebot201904",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "b9c770d1-cde9-4da3-ae40-95ce1a4fac0c",
+            "resourceGroup": "cdw-bots-20190420",
+            "connectionString": "65OshM40kdEzdDsiwB1WYg==!6heYZcLQZ4lk8oIvLzxwWTwG2Ul7BQsoFDpIlczUntuctqL2fz1EpTMmJbu/a9DlwXw0P4X8JisZxisKbxvhGg3op19YZ3x709T//5cTxKb9DaJyKLs3WYMi1et2QoL+GunK4yVElvb+wk/Iyb8NS4TbyA+UjPCbKvF4cRCdPobLhSxvXKs187Mdw077naFhug+kxOFWJsRk3rBbu8C1uZUD13927u0wJcVzAsIR6B0xDK9AoIQKt4GphXN3iIyt2CGRMLVJvx4eapKOoG7hLw==",
+            "container": "transcripts"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "cdw-enterprisebot-20190420",
+            "serviceName": "cdw-enterprisebot-20190420",
+            "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+            "subscriptionId": "b9c770d1-cde9-4da3-ae40-95ce1a4fac0c",
+            "resourceGroup": "cdw-bots-20190420",
+            "endpoint": "https://cdw-enterprisebot-20190420.documents.azure.com:443/",
+            "key": "S+NbGxwG8SpG+PKAaRMhaA==!MvIDUblwckc+n8G54CqP73OtidpurN4xuc8e4A+pv/E95fuXVbw/TCF+twEWWicM8gTO3wDki8JgTYfYpVox44Kryv7zM8Z5L2ULugY4NkJGwTEJzdm0aYCSppMoELfK",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        },
+        {
+            "type": "luis",
+            "name": "cdw-enterprisebot-20190420_General",
+            "appId": "97794335-e1eb-45f8-92ec-720071245aa6",
+            "authoringKey": "AIjTWVgN0vFhG1etzqtIZQ==!p6/tCbq+zxzscmXVbQXDKu+LJOVNM7LISZnL1xotO9cIRgcrgAWvE1yZt1JBMtux",
+            "subscriptionKey": "/ZYzlSVIR4sRQUbWvJEh1A==!Vqq7n1kAHFu/gXOsf4Qr/Tb2pYx6Qzt3fRb8hFbLGembHAny00ZJJvPzqBXYq6mU",
+            "version": "0.1",
+            "region": "westus",
+            "id": "general"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "e772b087-6974-41e3-8ee0-86e49c2ed150",
+            "subscriptionKey": "DIvrcT+C7XyTQXeLIz4kZw==!helje5LtMGpeGl1OVzzh6eVZazXMmkOTJHnPRy4+qCZHxnVNcZUGSmMPhzUbYWnB",
+            "endpointKey": "O35IyHAgD289qecgTcVrcw==!KqWMDijmc6zWrrDHT5KQwSAMwm75QZwSOpQRuCZ8goiRRxpjwW3Ug6A1JvcPC8YE",
+            "hostname": "https://cdw-enterprisebot-20190420-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "qna",
+            "name": "ChitChat",
+            "id": "chitchat",
+            "kbId": "c897ec57-1ea3-4c81-b14c-12eb7f1cb2e5",
+            "subscriptionKey": "+nkFTRESY58S1LPnUBCpyQ==!4E7A4JCwTSqlk+FobpOOFDPAItfbhKFIux7MfBZoIkNYcIXWKqQKdbvrO7Y0QPIX",
+            "endpointKey": "XnJL8fCaL+bCIdNlmaALZw==!Nw+Mj3RWl/zmpfGO49fsSKk8n6uMSCEV2wFDy8cw19qBTKcIkdXAOmTXjlcHLUjt",
+            "hostname": "https://cdw-enterprisebot-20190420-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "faq",
+                "chitchat"
+            ],
+            "name": "cdw-enterprisebot-20190420_Dispatch",
+            "appId": "d21779ff-d706-47f8-af31-3b4d11333969",
+            "authoringKey": "4t6lb1yRSa36wz1IBuw0aQ==!aA4k54R90k1wSaOoFiLSpA4Ee5i2L+ySrzbDB5RQszvmCKy0OxifEYGxn6gNZWn3",
+            "subscriptionKey": "zSZ35h6ryU5VPYcaLKyjCw==!e8m6S9QBo65fTxW1FDwUXv+Nuo88yikI2vJajiuaBtWeR+G7fM7OKeAF14GN7v1r",
+            "version": "Dispatch",
+            "region": "westus",
+            "id": "dispatch"
+        },
+        {
+            "type": "endpoint",
+            "name": "production",
+            "appId": "0b57482c-4c23-444e-95ac-a38e8631613d",
+            "appPassword": "YUKc4oP2La06OOEAqKlRbQ==!iiqD29lpBn2C5wkT2ShTy+chOHTeUm5ZcOXMNYLwIKZxaoAAu1L/RsngmpPW+szJ",
+            "endpoint": "https://cdw-enterprisebot-20190420.azurewebsites.net/api/messages",
+            "id": "160"
+        }
+    ],
+    "padlock": "u0tisoSTfD+2Yn/6/8yQwA==!H8Fud+K5TWtH31fcqDLKGJuwLGQx2R7ziEph0QZqeq4qi1wmiq2NyfOY/nDH/m0y",
+    "version": "2.0"
+}
